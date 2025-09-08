@@ -1,0 +1,183 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f6f8;
+    color: #222;
+    line-height: 1.6;
+}
+
+.cv_container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 32px 24px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 24px;
+    margin-bottom: 32px;
+    gap: 32px;
+}
+
+.image {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #1976d2;
+    box-shadow: 0 2px 8px rgba(25, 118, 210, 0.15);
+}
+
+.card2 {
+    flex: 1;
+}
+
+.nom {
+    font-size: 2.2rem;
+    color: #1976d2;
+    margin-bottom: 8px;
+}
+
+.prof {
+    font-size: 1.2rem;
+    color: #555;
+    font-style: italic;
+}
+
+.card3 {
+    min-width: 220px;
+    background: #f0f7fa;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 1px 4px rgba(25, 118, 210, 0.07);
+}
+
+.info-p {
+    font-size: 1.1rem;
+    color: #1976d2;
+    margin-bottom: 10px;
+}
+
+.info-ul {
+    list-style: none;
+}
+
+.in {
+    margin-bottom: 6px;
+    color: #333;
+    font-size: 1rem;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.card, .card1 {
+    flex: 1 1 350px;
+    background: #fafafa;
+    border-radius: 8px;
+    padding: 20px 18px;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+}
+
+.card1 {
+    background: #f5faff;
+}
+
+h2 {
+    font-size: 1.3rem;
+    color: #1976d2;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+ul {
+    margin-left: 18px;
+    margin-bottom: 8px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.comp-ul, .pa-ul {
+    list-style: disc inside;
+    color: #1976d2;
+    font-weight: 500;
+}
+
+.dev-pro {
+    color: #444;
+    font-size: 1.05rem;
+    margin-bottom: 8px;
+}
+
+.experience, .centre, .langue {
+    margin-bottom: 24px;
+}
+
+.exp-p, .form-p, .centre-p, .lang-p {
+    color: #1976d2;
+    font-size: 1.15rem;
+    margin-bottom: 10px;
+}
+
+.centre ul, .langue ul {
+    list-style: circle inside;
+    color: #1976d2;
+}
+
+.centre li, .langue li {
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+
+@media (max-width: 700px) {
+    .cv_container {
+        padding: 12px 4px;
+    }
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .main {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .card, .card1 {
+        padding: 14px 8px;
+    }
+    .card3 {
+        min-width: unset;
+        width: 100%;
+    }
+    .image {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 500px) {
+    .nom {
+        font-size: 1.4rem;
+    }
+    h2 {
+        font-size: 1.1rem;
+    }
+}
