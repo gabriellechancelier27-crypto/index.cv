@@ -1,0 +1,33 @@
+# CV Professionnel – Gabriel GABA
+
+Ce projet présente le CV professionnel de Gabriel GABA, étudiant en Gestion et passionné par le développement web et la technologie.
+
+## Fichiers du projet
+
+- **cv.html** : Page principale du CV au format HTML.
+- **cv2.css** : Feuille de style CSS pour une mise en page moderne et responsive.
+- **GABA Gabriel -1.jpg** : Photo de profil (à placer dans le dossier).
+
+## Aperçu
+
+Le CV inclut :
+- Informations personnelles
+- Profil professionnel
+- Compétences
+- Expériences professionnelles
+- Formations académiques et professionnelles
+- Centres d'intérêt
+- Langues
+
+## Utilisation
+
+1. Téléchargez tous les fichiers dans un même dossier.
+2. Ouvrez `cv.html` dans votre navigateur pour visualiser le CV.
+
+## Personnalisation
+
+Vous pouvez modifier le contenu du fichier HTML et les styles dans le fichier CSS selon vos besoins.
+
+---
+
+© 2025 Gabriel GABA
